@@ -6,6 +6,22 @@
 
 /* Image */
 
+	.image-person {
+		display: inline-block;
+		position: relative;
+		padding: 0.65em;
+		border-radius: 100%;
+		border: solid 1px;
+		border-color: rgba(0,0,0,0.2);
+		margin-bottom: 0.8em;
+
+		img {
+			display: block;
+			border-radius: 100%;
+			width: 10em;
+		}
+	}
+
 	.image {
 		border-radius: _size(border-radius);
 		border: 0;

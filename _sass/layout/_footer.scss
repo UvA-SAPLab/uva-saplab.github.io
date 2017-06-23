@@ -13,9 +13,14 @@
 		width: calc(100% + #{_size(element-margin)});
 		margin: 0 0 (_size(element-margin) * 1.5) (_size(element-margin) * -1);
 
-		> * {
-			width: calc(50% - #{_size(element-margin)});
-			margin-left: _size(element-margin);
+		// > * {
+		// 	width: calc(50% - #{_size(element-margin)});
+		// 	margin-left: _size(element-margin);
+		// }
+
+		p {
+			width: 100%;
+			text-align: center;
 		}
 
 		.copyright {
